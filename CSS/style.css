@@ -1,0 +1,484 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  scroll-behavior: smooth;
+}
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+/* header start  */
+
+nav {
+  height: 80px;
+  background-color: rgb(102 153 198 / 35%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px 0px 50px;
+  width: 100%;
+  top: 20%;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  overflow: hidden;
+}
+nav .logo a {
+  display: inline-block;
+  width: 45px;
+  filter: drop-shadow(7px -3px 5px rgba(43, 43, 46, 0.308));
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 66%;
+}
+nav ul .login {
+  margin-left: auto;
+}
+nav ul li {
+  margin-right: 22px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-weight: 400;
+}
+nav ul li a:hover,
+nav ul li a.active {
+  color: white;
+  background-color: #00000057;
+}
+.flbg {
+  background-image: url(../image/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+/* header end  */
+
+/* banner start  */
+.banner {
+  width: 100%;
+  height: 90vh;
+  padding: 82px 0px 186px 0px;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+  text-shadow: rgb(0 0 0 / 40%) 6px 6px 6.1px;
+  font-weight: 600;
+}
+
+.des {
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+  padding: 25px 0px 60px 0px;
+  font-style: italic;
+}
+
+.des strong
+{
+  font-weight: 500;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+.left {
+  width: 50%;
+}
+.right_img
+{
+  width: 50%;
+  filter: drop-shadow(7px -3px 5px rgba(43, 43, 46, 0.308));
+}
+.btn {
+  padding: 15px 30px;
+  background-color: #315a83;
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.3s ease-in;
+  box-shadow: rgba(0, 0, 0, 0.1) 6px 7px 5px;
+}
+.btn:hover {
+  color: #21211f;
+  background-color: white;
+  transform: translateY(5px);
+  box-shadow: 6px 7px 5px rgba(0, 0, 0, 0.1);
+}
+/* banner end  */
+
+
+
+
+
+/* upload section start  */
+.upload
+{
+  width: 100%;
+  height: 80vh;
+}
+.upheading {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  font-size: 29px;
+  text-shadow: rgba(0, 0, 0, 0.4) 7px 6px 6.1px;
+  
+}
+.upheading span
+{
+  background: url(../image/pngwing.com.png);
+  background-size: 100% 100%;
+  width: 90px;
+  height: 90px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 29px;
+  filter: drop-shadow(rgba(0, 0, 0, 0.4) 7px 6px 6.1px);
+  text-shadow: none;
+}
+.upload_wrapper
+{
+    margin-top: 86px;
+    width: 100%;
+    display: flex;
+}
+.left1
+{
+  width: 34%;
+}
+.updec
+{
+    width: 100%;
+    height: 330px;
+    background-color: white;
+    box-shadow: 0 0 40px #0000001a;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.upload_btn
+{
+    padding: 12px 32px;
+    border-radius: 100px;
+    font-size: 20px;
+    border: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bfa7cf;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: all 0.4s ease-in-out;
+}
+.updec:hover .upload_btn
+{
+  background-color: #f541df;
+  box-shadow: rgba(0, 0, 0, 0.1) 6px 7px 5px;
+}
+.upload input[type="file"]
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.upload-btn-wrapper
+{
+    position: relative;
+    width: fit-content;
+}
+.upload_icon
+{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 0px;
+    filter: brightness(0) invert(1);
+}
+.right1
+{
+  width: 66%;
+  border: 1px solid rgb(255, 255, 255);
+  margin-left: 25px;
+  position: relative;
+  border-radius: 20px;
+}
+.right1 p
+{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* upload section end  */
+
+
+
+
+
+
+
+/* contact Us page start **********************/
+
+
+/* banner-contact-page section start */
+.banner-contact-page h1 {
+	font-size: 30px;
+	color: white;
+	text-shadow: rgb(0 0 0 / 30%) 6px 6px 6.1px;
+	font-weight: 600;
+  padding: 10px 0px 10px 0px;
+  }
+
+.banner-contact-page {
+	text-align: center;
+}
+
+
+.contact-des
+{
+  font-weight: 300;
+    font-size: 22px;
+    color: white;
+    padding: 10px 0px 50px 0px;
+}
+.banner-contact-page img {
+	max-width: 30%;
+	height: auto;
+	filter: drop-shadow(7px -3px 5px rgba(43, 43, 46, 0.308));
+}
+
+/* banner section end */
+
+/* Contact form styles */
+.form-container {
+	max-width: 40%;
+	margin: 0 auto;
+	padding: 30px;
+	border-radius: 2%;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-container h2 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 35px;
+	color: white;
+	text-shadow: rgb(0 0 0 / 40%) 6px 6px 6.1px;
+	font-weight: 600;
+}
+
+.form-container label {
+	display:block;
+}
+
+.form-container label[for=name], label[for=email], label[for=query], label[for=message]{
+  font-weight: bold;
+  padding-bottom: 2%;
+}
+
+.form-container input, textarea{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 1rem;
+	resize: vertical;
+}
+
+
+.form-container select{
+	display:block;
+  font-weight: bold;
+	width: 100%;
+	padding: 10px;
+	border: 0.5px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 1rem;
+	resize: vertical;
+}
+
+
+/* start  */
+
+.profession{
+	padding-left: 5%;
+}
+
+.profession-desc
+{
+	margin-bottom: 16px;
+  font-weight: bold;
+}
+.profession li
+{
+	list-style: none;
+	display: block;
+}
+.profession li input[type='radio']
+{
+	width: auto;
+	margin-right: 8px;
+}
+.profession li label
+{
+	display: inline-block;
+}
+
+/* end  */
+
+
+#submit {
+	width: 25%;
+	padding: 10px 20px;
+	background-color: #315a83;
+	color: white;
+	border-radius: 5px;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: all 0.3s ease-in;
+	box-shadow: rgba(0, 0, 0, 0.1) 6px 7px 5px;
+}
+
+.buttonholder{
+	text-align: center;
+  padding-top: 3%;
+}
+
+#submit:hover {
+	color: #21211f;
+	background-color: white;
+	transform: translateY(5px);
+	box-shadow: 6px 7px 5px rgba(0, 0, 0, 0.1);
+  }
+
+/* login and signup start  */
+.container2{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../image/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
+}
+.form{
+  max-width: 430px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 6px;
+  background-color: #FFF;
+}
+header{
+  font-size: 28px;
+  font-weight: 600;
+  color: #232836;
+  text-align: center;
+}
+form{
+  margin-top: 30px;
+}
+.form .field{
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+.field input,
+.field button{
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 6px;
+}
+.field input{
+  padding: 0 15px;
+  border: 1px solid #CACACA;
+  outline: none;
+}
+.field input:focus{
+  border-bottom-width: 2px;
+}
+.eye-icon{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #8b8b8b;
+  cursor: pointer;
+  padding: 5px;
+}
+.field button{
+  color: #FFF;
+  background-color: #0171d3;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.field button:hover{
+  background-color: #2d88d8;
+}
+.form-link{
+  text-align: center;
+  margin-top: 10px;
+}
+.form-link span,
+.form-link a{
+  font-size: 14px;
+  font-weight: 400;
+  color: #232836;
+}
+.form a{
+  text-decoration: none;
+  color: #0171d3;
+}
+.form a:hover{
+  text-decoration: underline;
+}
+/* login and signup end  */
